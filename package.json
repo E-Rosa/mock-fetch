@@ -1,0 +1,24 @@
+{
+  "name": "@eliasrrosa/mock-fetch",
+  "version": "0.0.4",
+  "access": "public",
+  "description": "An API that simulates (some of) the behavior of the browser's fetch() api.",
+  "main": "dist/index.js",
+  "files": ["dist"],
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/E-Rosa/mock-fetch.git"
+  },
+  "keywords": [
+    "mock",
+    "front-end"
+  ],
+  "author": "Elias Rosa",
+  "bugs": {
+    "url": "https://github.com/E-Rosa/mock-fetch/issues"
+  },
+  "homepage": "https://github.com/E-Rosa/mock-fetch#readme"
+}
