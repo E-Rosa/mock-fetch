@@ -32,8 +32,8 @@ The returned object will have properties that mock the return object of `fetch()
 ```js
 const res = await fetchBooks();
 
-console.log(res.status);    //returns 200
-console.log(res.body.data); //returns "[{"title":"Book 1"},{"title":"Book 2"}]" 
-console.log(res.json());    //returns [{ title: "Book 1" }, { title: "Book 2" }]
+console.log(res.status);       //returns 200
+console.log(res.body.data);    //returns "[{"title":"Book 1"},{"title":"Book 2"}]" 
+console.log(await res.json()); //returns [{ title: "Book 1" }, { title: "Book 2" }]
 
 ```
