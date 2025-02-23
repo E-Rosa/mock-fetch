@@ -1,6 +1,6 @@
 {
   "name": "@eliasrrosa/mock-fetch",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "access": "public",
   "description": "An API that simulates (some of) the behavior of the browser's fetch() api.",
   "main": "dist/index.js",
